@@ -84,7 +84,7 @@ while r < 255:
     sense.set_pixel(7,6, zeissblue)
     sense.set_pixel(7,7, zeissblue)
 
-    r += 1
+r += 1
 
 # elif:
 #
