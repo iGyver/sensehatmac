@@ -40,11 +40,3 @@ sense.set_pixel(7,4, zeissblue)
 sense.set_pixel(7,5, zeissblue)
 sense.set_pixel(7,6, zeissblue)
 sense.set_pixel(7,7, zeissblue)
-
-images = [raspi_logo, raspi_logo, plus, z, e, i, es, full, es, equals, heart]
-count = 0
-
-while True:
-    s.set_pixels(images[count % len(images)]())
-    time.sleep(.75)
-    count += 1
