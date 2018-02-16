@@ -11,7 +11,7 @@ red = (255, 0, 0)
 white = (255, 255, 255)
 nothing = (0, 0, 0)
 pink = (255, 105, 180)
-zeissblue = (20, 30, 255)  # 20,30,140
+zeissblue = (20, 30, 255)  #20,30,140
 
 sense.set_pixel(0,0, zeissblue)
 sense.set_pixel(0,1, zeissblue)
