@@ -13,6 +13,15 @@ nothing = (0, 0, 0)
 pink = (255, 105, 180)
 zeissblue = (20, 30, 255)  # 20,30,140
 
+sense.set_pixel(0,0, zeissblue)
+sense.set_pixel(0,1, zeissblue)
+sense.set_pixel(0,2, zeissblue)
+sense.set_pixel(0,3, zeissblue)
+sense.set_pixel(0,4, zeissblue)
+sense.set_pixel(0,5, zeissblue)
+sense.set_pixel(0,6, zeissblue)
+sense.set_pixel(0,7, zeissblue)
+
 sense.set_pixel(1,0, zeissblue)
 sense.set_pixel(1,1, zeissblue)
 sense.set_pixel(1,2, zeissblue)
