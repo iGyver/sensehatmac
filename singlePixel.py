@@ -8,10 +8,9 @@ r = 0
 g = 0
 b = 0
 
-while r < 255:
-
-
 zeissblue = (r, g, b)  #20,30,140
+
+while r < 255:
 
     sense.set_pixel(0,0, zeissblue)
     sense.set_pixel(0,1, zeissblue)
